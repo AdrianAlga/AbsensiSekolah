@@ -1,0 +1,27 @@
+#logo .row {
+  background-image: url(image/bg-dasboard.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 60px;
+}
+
+#offcanvasNavbar {
+  width: 30%;
+}
+
+@media (max-width: 768px) {
+  #offcanvasNavbar {
+    width: 75%;
+  }
+}
+
+/* Setiing Link */
+a {
+  text-decoration: none;
+  color: rgb(250, 250, 250);
+}
+
+.logout a {
+  text-decoration: none;
+  color: rgb(2, 2, 2);
+}

@@ -1,0 +1,12 @@
+#logo .row{
+    background-image: url(image/bg-dasboard.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bg-dashboard{
+    height: 75vh;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.432);
+    background-blend-mode: multiply;
+    background-image: url(image/bg.jpg);
+}
