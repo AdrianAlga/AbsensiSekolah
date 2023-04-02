@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Informasi</title>
+    <title>Manage</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="Css/informasi.css" />
+    <link rel="stylesheet" href="Css/tambahGuru.css" />
   </head>
   <body>
     <section id="dashboard">
@@ -88,58 +88,108 @@
     </section>
 
     <div id="section">
-      <div class="container">
-        <div class="row shadow p-5 justify-content-center">
-          <div class="col-4 col-md-1">
-            <div><img src="Css/image/logo.png" alt="img" class="rounded-circle img-fluid" /></div>
-          </div>
-          <div class="col-md-11 text-center">
-            <h3>Informasi</h3>
+      <div class="container-fluid card shadow-lg">
+        <div class="row mt-3">
+          <div class="col-md-12 text-center">
+            <h3>Tambahkan User</h3>
+            <p>Tambahkan User baru dan Profile</p>
           </div>
         </div>
       </div>
     </div>
 
     <div id="section">
-      <div class="container">
-        <div class="row card shadow p-4 mt-3">
-          <div class="col-md-12">
-            <h4 class="card-header">Detail User</h4>
-            <div class="card-body">
-              <div class="col-2 col-md-6">
-                <table class="table table-borderless table-responsive">
-                  <tbody>
-                    <tr>
-                      <td>Nama</td>
-                      <td>:</td>
-                      <td>Sukina</td>
-                    </tr>
-                    <tr>
-                      <td>NIP</td>
-                      <td>:</td>
-                      <td>4100</td>
-                    </tr>
-                    <tr>
-                      <td>Email</td>
-                      <td>:</td>
-                      <td>sukinah@gmaul.com</td>
-                    </tr>
-                    <tr>
-                      <td>NoTelepon</td>
-                      <td>:</td>
-                      <td>0852525247287</td>
-                    </tr>
-                    <tr>
-                      <td>Jenis Kelamin</td>
-                      <td>:</td>
-                      <td>Perempuan</td>
-                    </tr>
-                  </tbody>
-                </table>
+      <div class="container-fluid">
+        <div class="row m-4">
+          <div class="col-md-6 mb-3">
+            <div class="card">
+              <div class="login-box">
+                <form>
+                  <h4 class="mb-4 text-center">USER</h4>
+                  <div class="user-box">
+                    <input type="text" name="" required="" />
+                    <label class="text-black">NIP</label>
+                  </div>
+                  <div class="user-box">
+                    <input type="password" name="" required="" />
+                    <label class="text-black">Password</label>
+                  </div>
+                  <div class="user-box">
+                    <input type="password" name="" required="" />
+                    <label class="text-black">Name</label>
+                  </div>
+                  <div>
+                    <p>Matkul :</p>
+                    <select class="form-select" aria-label="Default select example">
+                      <option value="1">Matematika</option>
+                      <option value="2">Bhs.Indonesia</option>
+                      <option value="3">Bhs.Inggris</option>
+                      <option value="4">Biologi</option>
+                      <option value="5">Fisika</option>
+                    </select>
+                  </div>
+                </form>
               </div>
             </div>
-            <div>
-              <button type="button" class="btn btn-primary" style="--bs-btn-padding-y: 0.25rem; --bs-btn-padding-x: 0.5rem; --bs-btn-font-size: 0.75rem"><a href="user.html">Back</a></button>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="login-box">
+                <form>
+                  <h4 class="mb-4 text-center">PROFILE</h4>
+                  <div class="user-box">
+                    <input type="text" name="" required />
+                    <label class="text-black">Email</label>
+                  </div>
+                  <div class="user-box">
+                    <input type="password" name="" required="" />
+                    <label class="text-black">Phone Number</label>
+                  </div>
+                  <div>
+                    <select class="form-select" aria-label="Default select example">
+                      <option value="1">Laki-Laki</option>
+                      <option value="2">Perempuan</option>
+                    </select>
+                  </div>
+                  <div class="edit-kelas mt-4">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                      <label class="form-check-label" for="flexRadioDefault1"> IPA </label>
+                      <div class="edit-IPA my-3">
+                        <select class="form-select" aria-label="Default select example">
+                          <option value="1">10 IPA I</option>
+                          <option value="1">10 IPA II</option>
+                          <option value="2">11 IPA</option>
+                          <option value="2">12 IPA</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-check my-3">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
+                      <label class="form-check-label" for="flexRadioDefault2"> IPS </label>
+                      <div class="edit-IPA my-3">
+                        <select class="form-select" aria-label="Default select example">
+                          <option value="1">10 IPS</option>
+                          <option value="2">11 IPS</option>
+                          <option value="2">12 IPS</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-12">
+            <div class="login-box">
+              <form>
+                <a href="#" class="card">
+                  Add User
+                  <span></span>
+                </a>
+              </form>
             </div>
           </div>
         </div>
