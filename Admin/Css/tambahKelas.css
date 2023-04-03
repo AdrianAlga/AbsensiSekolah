@@ -103,11 +103,3 @@
   background: linear-gradient(90deg, transparent, #1303f4);
   animation: btn-anim1 2s linear infinite;
 }
-
-/* Gaya opsional untuk menambahkan margin */
-label, select, .card {
-    margin: 10px;
-  }
-  
-  
-  

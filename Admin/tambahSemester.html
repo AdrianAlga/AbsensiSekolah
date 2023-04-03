@@ -100,65 +100,61 @@
 
     <div id="section">
       <div class="container-fluid">
-        <div class="row m-4 justify-content-center">
+        <div class="row mt-4 justify-content-center">
           <div class="col-md-6 mb-3">
             <div class="card">
               <div class="login-box">
                 <form>
-                  <h4 class="mb-4 text-center">Semester</h4>
-                  <div class="user-box">
-                    <input type="text" name="" required="" />
-                    <label class="text-black">NIP</label>
-                  </div>
-                  <div class="user-box">
-                    <input type="password" name="" required="" />
-                    <label class="text-black">Password</label>
-                  </div>
-                  <div class="user-box">
-                    <input type="password" name="" required="" />
-                    <label class="text-black">Name</label>
-                  </div>
+                  <h4 class="mb-4 text-center mt-3">Semester</h4>
                   <div>
-                    <p>Matkul :</p>
+                    <p>Semester :</p>
                     <select class="form-select" aria-label="Default select example">
-                      <option value="1">Matematika</option>
-                      <option value="2">Bhs.Indonesia</option>
-                      <option value="3">Bhs.Inggris</option>
-                      <option value="4">Biologi</option>
-                      <option value="5">Fisika</option>
+                      <option value="1">Ganjil</option>
+                      <option value="2">Genap</option>
                     </select>
                   </div>
                   <div>
-                    <label for="tahun-ajaran">Pilih Tahun Ajaran:</label>
-                    <div class="row align-items-center">
-                      <div class="col-md-5">
-                        <select id="tahun-ajaran" name="tahun-ajaran">
-                          <option value="">--Pilih Tahun Ajaran--</option>
-                          <option value="2020">2020</option>
-                          <option value="2019">2019</option>
-                          <option value="2018">2018</option>
-                          <!-- Tambahkan opsi tahun ajaran lainnya di sini -->
-                        </select>
-                      </div>
-                      <div class="col-md-1">
-                        <p class="card-subtitle mb-2 text-muted mt-1">/</p>
-                      </div>
-                      <div class="col-md-2 bg-warning">
-                        <table>
-                            <tbody>
+                    <p>Status :</p>
+                    <select class="form-select" aria-label="Default select example">
+                      <option value="1">Aktif</option>
+                      <option value="2">Nonaktif</option>
+                    </select>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div>
+                        <label for="tahun-ajaran">Tahun Ajaran:</label>
+                        <div class="row align-items-center">
+                          <div class="col-7 col-md-5">
+                            <select id="tahun-ajaran" name="tahun-ajaran">
+                              <option value="">Tahun Ajaran</option>
+                              <option value="2020">2020</option>
+                              <option value="2019">2019</option>
+                              <option value="2018">2018</option>
+                              <!-- Tambahkan opsi tahun ajaran lainnya di sini -->
+                            </select>
+                          </div>
+                          <div class="col-1 col-md-1">
+                            <p class="card-subtitle mb-2 text-muted mt-1">/</p>
+                          </div>
+                          <div class="col-2 col-md-2">
+                            <table>
+                              <tbody>
                                 <tr>
-                                    <th>
-                                        <p class="card-text" id="tahun-ajaran-berikutnya"></p>
-                                    </th>
+                                  <th>
+                                    <p class="card-text" id="tahun-ajaran-berikutnya"></p>
+                                  </th>
                                 </tr>
-                            </tbody>
-                        </table>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="card-body">
-                        <strong class="card-title">Tahun Ajaran</strong>
-                        <p class="card-text" id="tahun-ajaran-terpilih"></p>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-body">
+                            <strong class="card-title">Tahun Ajaran</strong>
+                            <p class="card-text" id="tahun-ajaran-terpilih"></p>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -172,7 +168,7 @@
             <div class="login-box">
               <form>
                 <a href="#" class="card">
-                  Add User
+                  Simpan
                   <span></span>
                 </a>
               </form>
