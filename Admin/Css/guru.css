@@ -9,7 +9,23 @@
 }
 
 /* navbar */
-#logo .row{
-    background-image: url(image/bg-dasboard.png);
-    background-repeat: no-repeat;
-    background-size: cover;}
+#logo .row {
+  background-image: url(image/bg-dasboard.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icn-akun {
+  width: 35px;
+  height: 35px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(250, 250, 250);
+}
+
+.logout a {
+  text-decoration: none;
+  color: rgb(2, 2, 2);
+}

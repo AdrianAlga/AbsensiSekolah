@@ -21,7 +21,6 @@
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 2px;
-  padding-bottom: 20px;
 }
 
 .login-box .user-box {
@@ -105,9 +104,13 @@
 }
 
 /* Gaya opsional untuk menambahkan margin */
-label, select, .card {
-    margin: 10px;
-  }
-  
-  
-  
+label,
+select,
+#semester .card {
+  margin: 10px;
+}
+
+.icn-akun {
+  width: 35px;
+  height: 35px;
+}

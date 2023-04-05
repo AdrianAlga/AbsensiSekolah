@@ -21,7 +21,6 @@
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 2px;
-  padding-bottom: 20px;
 }
 
 .login-box .user-box {
@@ -102,4 +101,9 @@
   height: 2px;
   background: linear-gradient(90deg, transparent, #1303f4);
   animation: btn-anim1 2s linear infinite;
+}
+
+.icn-akun {
+  width: 35px;
+  height: 35px;
 }
