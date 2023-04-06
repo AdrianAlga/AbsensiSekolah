@@ -14,6 +14,15 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+#offcanvasNavbar {
+  width: 30%;
+}
+
+@media (max-width: 768px) {
+  #offcanvasNavbar {
+    width: 75%;
+  }
+}
 
 /* Form */
 .login-box {
@@ -72,10 +81,10 @@
 }
 
 .login-box a:hover {
-  background: #1693d7;
-  color: #00e5ff;
+  background: #16d760;
+  color: #000000;
   border-radius: 5px;
-  box-shadow: 0 0 5px #03a8f4, 0 0 25px #03a0f4, 0 0 50px #03a0f4, 0 0 100px #03a0f4;
+  box-shadow: 0 0 5px #03f457, 0 0 25px #03f44f, 0 0 50px #03f437, 0 0 10px #03f46f;
 }
 
 .login-box a span {
@@ -99,11 +108,17 @@
   left: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #1303f4);
+  background: linear-gradient(90deg, transparent, #03d8f4);
   animation: btn-anim1 2s linear infinite;
 }
 
 .icn-akun {
   width: 35px;
   height: 35px;
+}
+
+/* link */
+a {
+  text-decoration: none;
+  color: black;
 }

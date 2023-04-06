@@ -58,6 +58,13 @@
                   <div class="card mt-2">
                     <div class="container">
                       <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="semester.html"><i class="bi bi-calendar3"></i> Semester</a>
+                      </li>
+                    </div>
+                  </div>
+                  <div class="card mt-2">
+                    <div class="container">
+                      <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="mapel.html"><i class="bi bi-book-half"></i> Mata Pelajaran</a>
                       </li>
                     </div>
@@ -82,7 +89,7 @@
 
     <section id="logo">
       <div class="container-fluid">
-        <div class="row py-3 text-center align-items-center justify-content-center">
+        <div class="row py-3 text-center align-items-center justify-content-center pt-4">
           <div class="col-5 col-md-1">
             <img src="css/image/logo.png" alt="bg" class="img-fluid" />
           </div>
@@ -107,6 +114,11 @@
       </div>
     </div>
 
+    <!-- alerts -->
+    <div id="liveAlertPlaceholder"></div>
+
+    <!-- End Alerts -->
+
     <div class="section">
       <div class="container-fluid card shadow my-3">
         <div class="row">
@@ -127,9 +139,9 @@
                     <td>19090</td>
                     <td>Suci</td>
                     <td>
-                      <a href="informasiGuru.html"><span class="badge text-bg-info">Informasi</span></a>
-                      <a href="editGuru.html"><span class="badge text-bg-warning">Edit User</span></a>
-                      <a href="#"><span class="badge text-bg-danger">Delete</span></a>
+                      <a href="#"><span class="badge text-bg-info" id="liveAlertBtn">Informasi</span></a>
+                      <a href="editGuru.html"><span class="badge text-bg-warning">Edit Guru</span></a>
+                      <a href="#"><span class="badge text-bg-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</span></a>
                     </td>
                   </tr>
                   <tr>
@@ -138,7 +150,7 @@
                     <td>Sukina</td>
                     <td>
                       <a href="informasiGuru.html"><span class="badge text-bg-info">Informasi</span></a>
-                      <a href="editGuru.html"><span class="badge text-bg-warning">Edit User</span></a>
+                      <a href="editGuru.html"><span class="badge text-bg-warning">Edit Guru</span></a>
                       <a href="#"><span class="badge text-bg-danger">Delete</span></a>
                     </td>
                   </tr>
@@ -148,18 +160,36 @@
                     <td>dyna</td>
                     <td>
                       <a href="informasiGuru.html"><span class="badge text-bg-info">Informasi</span></a>
-                      <a href="editGuru.html"><span class="badge text-bg-warning">Edit User</span></a>
+                      <a href="editGuru.html"><span class="badge text-bg-warning">Edit Guru</span></a>
                       <a href="#"><span class="badge text-bg-danger">Delete</span></a>
                     </td>
                   </tr>
                 </tbody>
               </table>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">Apakah anda ingin menghapusnya?</div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tidak</button>
+                      <a href="guru.html"><button type="button" class="btn btn-primary">Ya</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
 
+    <!-- JavaScript -->
+    <script src="JavaScript/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -14,6 +14,15 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+#offcanvasNavbar {
+  width: 30%;
+}
+
+@media (max-width: 768px) {
+  #offcanvasNavbar {
+    width: 75%;
+  }
+}
 
 a {
   text-decoration: none;
