@@ -20,7 +20,11 @@
 }
 
 /* Nama Menyamping */
-.table td:nth-child(2) {
+/* .table td:nth-child(2) {
+  white-space: nowrap;
+} */
+
+body {
   white-space: nowrap;
 }
 
