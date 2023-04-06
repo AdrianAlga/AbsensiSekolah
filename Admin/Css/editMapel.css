@@ -108,7 +108,7 @@
   left: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #03d8f4);
+  background: linear-gradient(90deg, transparent, #1303f4);
   animation: btn-anim1 2s linear infinite;
 }
 
