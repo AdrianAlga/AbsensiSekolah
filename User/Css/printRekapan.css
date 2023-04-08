@@ -20,13 +20,16 @@
 }
 
 /* Nama Menyamping */
-/* .table td:nth-child(2) {
-  white-space: nowrap;
-} */
-
-body {
+.table td:nth-child(1) {
   white-space: nowrap;
 }
+.table td:nth-child(2) {
+  white-space: nowrap;
+}
+
+/* body {
+  white-space: nowrap;
+} */
 
 /* Setting Link */
 a {

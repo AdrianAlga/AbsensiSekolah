@@ -13,70 +13,60 @@
     <link rel="stylesheet" href="Css/printRekapan.css" />
   </head>
   <body>
-    <section id="dashboard">
-      <div class="container-fluid mb-5">
-        <nav class="navbar bg-success fixed-top">
-          <div class="container-fluid">
-            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" data-bs-display="push">
-              <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Dashboard</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-              </div>
-              <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                  <div class="card">
-                    <div class="container">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="dasboardUser.html"><i class="bi bi-house-door"></i> Beranda</a>
-                      </li>
+    <section id="rekap">
+      <div class="container-fluid ">
+        <div class="row text-center mt-5 align-items-center">
+          <div class="col-12">
+            <table class="table">
+              <thead>
+                <tr class="text-center">
+                  <th scope="col">
+                    <div class="row">
+                      <div class="col-12">
+                        <h3>Rekapan Absensi</h3>
+                      </div>
+                      <div class="col-12">
+                        <h3>SMA NEGRI 17 GOWA</h3>
+                      </div>
                     </div>
-                  </div>
-                  <div class="card mt-2">
-                    <div class="container">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="kelas.html"><i class="bi bi-book"></i> Kelas</a>
-                      </li>
-                    </div>
-                  </div>
-                  <div class="card mt-2">
-                    <div class="container">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="rekapan.html"><i class="bi bi-file-earmark-text"></i> Rekapan Absensi</a>
-                      </li>
-                    </div>
-                  </div>
-                </ul>
-              </div>
-            </div>
-            <div class="btn-group">
-              <button type="button" class="btn dropdown-toggle d-flex align-items-center" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
-                <div class="bg-primary rounded-circle me-2 d-flex align-items-center justify-content-center icn-akun">A</div>
-              </button>
-              <ul class="dropdown-menu dropdown-menu-end">
-                <li>
-                  <button class="dropdown-item logout" type="button"><a href="/index.html">Logout</a></button>
-                </li>
-              </ul>
-            </div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Alamat : CiniAyo Kel.Sapaya Kec.Bungaya Kab.Gowa Prov.Sulawesi Selatan</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-        </nav>
+        </div>
       </div>
     </section>
 
-    <section id="rekap">
-      <div class="container pt-3">
-        <div class="row text-center my-5 align-items-center justify-content-center">
-          <div class="col-4 d-flex flex-nowrap justify-content-center">
-            <h3>Rekapan Absensi</h3>
-          </div>
-          <div class="col-12">
-            <h3>SMA NEGRI 17 GOWA</h3>
-          </div>
-          <div class="col-12 border border-top-0 border-end-0 border-start-0 border-3 border-black">
-            <p class="small">Alamat : CiniAyo Kel.Sapaya Kec.Bungaya Kab.Gowa Prov.Sulawesi Selatan</p>
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-10 col-md-4">
+            <table class="table table-borderless">
+              <tbody>
+                <tr>
+                  <td>Mata Pelajaran</td>
+                  <td>:</td>
+                  <td>Bahasa Indonesia</td>
+                </tr>
+                <tr>
+                  <td>Kelas</td>
+                  <td>:</td>
+                  <td>10 IPA II</td>
+                </tr>
+                <br />
+                <tr>
+                  <td>Semester</td>
+                  <td>:</td>
+                  <td>II (Genap)</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
@@ -85,34 +75,32 @@
     <section id="rekapUser">
       <div class="container">
         <form action="#">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="">
-                <table class="table table-bordered">
-                  <thead>
-                    <tr class="text-center">
-                      <th scope="col">No.</th>
-                      <th scope="col">Nama</th>
-                      <th scope="col">NISN</th>
-                      <th scope="col">L/P</th>
-                      <th scope="col">H</th>
-                      <th scope="col">S</th>
-                      <th scope="col">A</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row" class="text-center">1</th>
-                      <td>Indrawansyah Fernanda Aras</td>
-                      <td class="text-center">6020027070</td>
-                      <td class="text-center">L</td>
-                      <td class="text-center">20</td>
-                      <td class="text-center">2</td>
-                      <td class="text-center">1</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+          <div class="row justify-content-center">
+            <div class="col-11">
+              <table class="table table-bordered border border-0">
+                <thead>
+                  <tr class="text-center">
+                    <th scope="col">No.</th>
+                    <th scope="col">Nama</th>
+                    <th scope="col">NISN</th>
+                    <th scope="col">L/P</th>
+                    <th scope="col">H</th>
+                    <th scope="col">S</th>
+                    <th scope="col">A</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row" class="text-center">1</th>
+                    <td>Indrawansyah Fernanda Aras</td>
+                    <td class="text-center">6020027070</td>
+                    <td class="text-center">L</td>
+                    <td class="text-center">20</td>
+                    <td class="text-center">2</td>
+                    <td class="text-center">1</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
             <div class="button mb-3">
               <button type="button" class="btn btn-primary btn-sm">

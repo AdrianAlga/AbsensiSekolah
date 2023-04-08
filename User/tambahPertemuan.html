@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>+Kelas</title>
+    <title>+Pertemuan</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
     <link rel="stylesheet" href="Css/tambahPertemuan.css" />
 
@@ -27,42 +27,27 @@
                   <div class="card">
                     <div class="container">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="dashboard.html"><i class="bi bi-house-door"></i> Beranda</a>
+                        <a class="nav-link active" aria-current="page" href="dasboardUser.html"><i class="bi bi-house-door"></i> Beranda</a>
                       </li>
                     </div>
                   </div>
                   <div class="card mt-2">
                     <div class="container">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="guru.html"><i class="bi bi-people"></i> Guru</a>
+                        <a class="nav-link active" aria-current="page" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"><i class="bi bi-book"></i> Kelas</a>
                       </li>
+                      <div class="collapse text-center" id="collapseExample">
+                        <div class="card card-body">
+                          <a href="kelas.html"><button type="button" class="btn btn-primary mb-2">Bahasa Indonesia</button></a>
+                          <a href="kelas.html"><button type="button" class="btn btn-primary">Biologi</button></a>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <div class="card mt-2">
                     <div class="container">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="siswa.html"><i class="bi bi-person"></i> Siswa</a>
-                      </li>
-                    </div>
-                  </div>
-                  <div class="card mt-2">
-                    <div class="container">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="kelas.html"><i class="bi bi-hospital"></i> Kelas</a>
-                      </li>
-                    </div>
-                  </div>
-                  <div class="card mt-2">
-                    <div class="container">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="semester.html"><i class="bi bi-calendar3"></i> Semester</a>
-                      </li>
-                    </div>
-                  </div>
-                  <div class="card mt-2">
-                    <div class="container">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="mapel.html"><i class="bi bi-book-half"></i> Mata Pelajaran</a>
+                        <a class="nav-link active" aria-current="page" href="rekapan.html"><i class="bi bi-file-earmark-text"></i> Rekapan Absensi</a>
                       </li>
                     </div>
                   </div>
@@ -101,7 +86,7 @@
       <div class="container-fluid card shadow-lg">
         <div class="row mt-3">
           <div class="col-2">
-            <a href="kelas.html"
+            <a href="absensi.html"
               ><button type="button" class="btn btn-primary"><i class="bi bi-arrow-left-circle"></i></button
             ></a>
           </div>
