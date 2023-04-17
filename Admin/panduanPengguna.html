@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Guru</title>
+    <title>panduanPengguna</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
 
     <!-- Icon Bosstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="Css/guru.css" />
+    <link rel="stylesheet" href="Css/tentangkami.css" />
   </head>
   <body>
     <section id="dashboard">
@@ -69,6 +69,20 @@
                       </li>
                     </div>
                   </div>
+                  <div class="card mt-2">
+                    <div class="container">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="panduanPengguna.html"><i class="bi bi-question-circle-fill"></i> Panduan Pengguna</a>
+                      </li>
+                    </div>
+                  </div>
+                  <div class="card mt-2">
+                    <div class="container">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="tentangkami.html"><i class="bi bi-info-circle-fill"></i> Tentang Kami</a>
+                      </li>
+                    </div>
+                  </div>
                 </ul>
               </div>
             </div>
@@ -100,89 +114,36 @@
       </div>
     </section>
 
-    <section id="guru">
+    <section id="tentangkami">
       <div class="container-fluid card shadow">
         <div class="row p-3">
-          <div class="col-md-12">
-            <h3>Guru</h3>
-            <p>Tambah, Edit atau hapus Guru</p>
-          </div>
-          <div class="col-md-4">
-            <a href="tambahGuru.html"><button type="button" class="btn btn-primary">Tambah Guru</button></a>
+          <div class="col-md-12 text-center">
+            <h3>Tentang Kami</h3>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- alerts -->
-    <div id="liveAlertPlaceholder"></div>
-
-    <!-- End Alerts -->
-
-    <section class="isiguru">
+    <section class="aksi">
       <div class="container-fluid card shadow my-3">
-        <div class="row">
-          <div class="col-md-12 p-4">
-            <div class="table-responsive">
-              <table class="table table-bordered text-center">
-                <thead>
-                  <tr>
-                    <th class="col-md-0">No.</th>
-                    <th class="col-md-4">NIP</th>
-                    <th class="col-md-4">Nama</th>
-                    <th class="col-md-4">Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>19090</td>
-                    <td>Suci</td>
-                    <td>
-                      <a href="#"><span class="badge text-bg-info" id="liveAlertBtn">Informasi</span></a>
-                      <a href="editGuru.html"><span class="badge text-bg-warning">Edit Guru</span></a>
-                      <a href="#"><span class="badge text-bg-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</span></a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>8978</td>
-                    <td>Sukina</td>
-                    <td>
-                      <a href="informasiGuru.html"><span class="badge text-bg-info">Informasi</span></a>
-                      <a href="editGuru.html"><span class="badge text-bg-warning">Edit Guru</span></a>
-                      <a href="#"><span class="badge text-bg-danger">Delete</span></a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td>5434</td>
-                    <td>dyna</td>
-                    <td>
-                      <a href="informasiGuru.html"><span class="badge text-bg-info">Informasi</span></a>
-                      <a href="editGuru.html"><span class="badge text-bg-warning">Edit Guru</span></a>
-                      <a href="#"><span class="badge text-bg-danger">Delete</span></a>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <!-- Modal -->
-              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">Apakah anda ingin menghapusnya?</div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tidak</button>
-                      <a href="guru.html"><button type="button" class="btn btn-primary">Ya</button></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class="row py-5 justify-content-center">
+          <div class="col-md-12 text-center">
+            <object data="Css/image/Pengantar Dartpptx.pdf" type="application/pdf">
+              <p class="text-black">File PDF tidak dapat ditampilkan. <a href="Css/image/Pengantar Dartpptx.pdf">Klik disini untuk mengunduh file</a>.</p>
+            </object>
+          </div>
+          <div class="col-md-6 col-12 text-end">
+            <button type="button" class="btn btn-primary">Unduh</button>
+          </div>
+          <div class="col-md-6 col-12">
+            <button type="button" class="btn btn-danger">Hapus</button>
+          </div>
+        </div>
+        <div class="row p-5 align-items-center">
+          <div class="col-md-6 col-6 text-end">
+            <a href="tambahPanduanPengguna.html">
+              <i class="bi bi-plus-square" style="font-size: 40px; color: #000"></i>
+            </a>
           </div>
         </div>
       </div>
